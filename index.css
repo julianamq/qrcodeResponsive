@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 100%; /* define a largura máxima da div como 100% */
+    margin: 0 auto; /* centraliza a div horizontalmente */
+    padding: 20px; /* adiciona um espaçamento interno à div */
+  }
+  
+  /* Media query para telas maiores que 768px */
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px; /* define a largura máxima da div como 768px */
+    }
+  }
+  
